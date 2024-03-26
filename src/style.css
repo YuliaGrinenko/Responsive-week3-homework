@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  margin-top: 100px !important;
+  margin: 100px 0 !important;
 }
 h1,
 h2,
@@ -33,6 +33,7 @@ p {
   display: flex;
   margin: 40px 0;
   justify-content: center;
+  margin-bottom: 48px;
 }
 
 .navigation-links a {
@@ -83,8 +84,22 @@ a:hover {
   }
   h2 {
     font-size: 32px !important;
+    text-align: center;
   }
   h3 {
     font-size: 24px !important;
+  }
+  p {
+    text-align: center;
+  }
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .app-title {
+    color: red;
+    display: block !important;
+    text-align: center !important;
   }
 }
